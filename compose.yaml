@@ -1,8 +1,8 @@
 services:
-  sigma_app: # fixme
+  shadow_cracker_app:
     build:
       context: .
       dockerfile: Dockerfile
-    image: my_portscanner:latest
-    container_name: sigma_app_container
+    image: shadow_cracker_image:latest
+    container_name: shadow_cracker_container
 
